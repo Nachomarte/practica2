@@ -20,11 +20,11 @@ body {
 }
 
 .producto:first-child {
-    border-left: 5px solid red;
+    border-left: 5px solid green;
 }
 
 .producto:last-child {
-    border-left: 5px solid green;
+    border-left: 5px solid red;
 }
 
 .producto:nth-child(2){

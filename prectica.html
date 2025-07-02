@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>bienvenido a la tienda</h1>
+
+    <input type="text" class="busqueda" placeholder="buscar productos...">
+
+    <div class="filtros">
+        <label><input type="checkbox"> electronica</label>
+        <label><input type="checkbox"> ropa</label>
+        <label><input type="checkbox" disabled> juegos</label>
+    </div>
+
+    <ul class="productos">
+        <li class="producto">producto A - $1000 <button>comprar</button></li>
+        <li class="producto">producto B - $1500 <button>comprar</button></li>
+        <li class="producto">producto C - $2000 <button>comprar</button></li>
+        <li class="producto destacado">producto D - $2500 <button disabled>agotado</button></li>
+    </ul>
+    
+    <form class="formulario">
+        <input type="text" placeholder="nombre">
+        <input type="email" placeholder="correo electronico">
+        <button type="submit">enviar</button>
+    </form>
+</body>
+</html>
